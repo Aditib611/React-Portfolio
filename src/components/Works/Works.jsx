@@ -21,7 +21,7 @@ const Works = () => {
         <div className="awesome">
             <span style={{color: darkMode? 'white': ''}}>Worked on the </span>
             <span>MERN Stack</span>
-            <span style={{ fontSize: '17px' }}>Proficient in MongoDB, Express, React, and Node.js, comprising the MERN stack.
+            <span style={{ fontSize: '15px' }}>Proficient in MongoDB, Express, React, and Node.js, comprising the MERN stack.
             <br/>Utilized MERN stack to create responsive and mobile-friendly web applications.
             <br/>Confident in building high-quality, scalable web apps with the MERN stack.
             </span>
