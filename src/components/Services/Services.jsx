@@ -21,9 +21,9 @@ const Services = () => {
     <div className="awesome">
     <span style={{color: darkMode? 'white': ''}}>My Awesome</span>
     <span>Services</span>
-    <span style={{ fontSize: '16px' }}>I have a solid grasp of computer science principles, especially JAVA and data structures and algorithms (DSA) .
+    <span style={{ fontSize: '16px' }}>I have a solid grasp of computer science principles, especially JAVA and DSA.
         <br/> I'm proficient in C++, Java, and Python.
-        <br/>I'm always eager to take on new challenges and opportunities for learning and development.
+        <br/>I'm always eager to take on new challenges  for learning and development.
         </span>
         <a href={Resume} download>
         <button className="button s-button">Download CV</button>
