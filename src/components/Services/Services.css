@@ -1,0 +1,76 @@
+.services{
+    padding:0 3rem 0 3rem;
+    display:flex;
+    height: 90vj;
+    margin-bottom: 8rem;
+    /*margin-top: 13rem;
+    /*margin-bottom: 13rem;*/
+    margin-top: 9rem;
+    font-size: large;
+    
+}
+.awesome{
+    display:flex;
+    flex-direction:column;
+    position : relative;
+    margin-right: 5rem;
+}
+.awesome>:nth-child(1){  /*my awesome*/
+    color:var(--black);
+    font-size:2.5rem;
+    font-weight:bold;
+}
+.awesome>:nth-child(2){  /*services*/
+    color:var(--orange);
+    font-size:2.5rem;
+    font-weight:bold;
+}
+
+.awesome>:nth-child(3){  /*services*/
+    color:var(--gray);
+    font-size:20rem;
+    margin-top: 2rem;
+   
+}
+.s-button{
+    width:8rem;
+    height:2rem;
+
+
+}
+
+.cards{
+    position:relative;
+}
+.cards>*{
+    position:absolute;
+}
+
+/**blur*/
+.s-blur2{
+    left:10rem;
+    top:6rem;
+}
+.s-blur1{
+    left:-5rem;
+    top:13rem;
+}
+
+@media screen and (max-width: 480px) {
+    .services {
+      margin-top: 0;
+      flex-direction: column;
+      gap: 5rem;
+      height: 66rem;
+      padding: 0;
+    }
+  
+    .cards {
+      display: flex;
+      flex-direction: column;
+      gap: 17rem;
+    }
+    .cards > * {
+      position: static;
+    }
+  }
